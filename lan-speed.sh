@@ -16,7 +16,7 @@ case $# in
 				break ;
 			else
 				# Print timestamp (unix time + microseconds as in gettimeofday) before each line.
-				ping -A -c 1000 -D -I $1 -i 1 $2 | cat | awk -F ' ' '{split($8,time,"="); print time[2]}' >> data.csv;
+				ping -A -c 300 -D -I $1 -i 1 $2 | cat | awk -F ' ' '{split($8,time,"="); print time[2]}' >> data.csv;
 			fi
 		done
 		python3 analisis.py
