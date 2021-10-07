@@ -62,8 +62,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]]
+<p align="center">
+  <img src="images/plot.png" alt="Plot" width="500"/>
+</p>
 
 Linux has a very simple way to check ping, and I only use those tools, and the Bash and Python languages, to write this little program allows to visualize the communication speed between two IP addresses.
 
@@ -73,7 +74,7 @@ Linux has a very simple way to check ping, and I only use those tools, and the B
 
 ### Built With
 
-* [Bash](https://www.gnu.org/software/bash/)
+* [Airodump-ng](https://www.aircrack-ng.org/doku.php?id=airodump-ng/)
 * [Pandas](https://pandas.pydata.org/)
 * [Scipy](https://www.scipy.org/)
 * [Seaborn](https://seaborn.pydata.org/)
