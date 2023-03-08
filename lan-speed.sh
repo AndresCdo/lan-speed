@@ -2,29 +2,29 @@
 
 figlet LAN Speed
 
-# Se crea el archivo CSV y se agrega un título a la columna.
-echo "Data" > data.csv;
+# Create a named pipe instead of a CSV file.
+mkfifo ping_output
 
-# El script tiene dos argmentos: la interfaz de monitoreo y la dirección ip4.
+# The script has two arguments: the monitoring interface and the IPv4 address.
 case $# in
 	2)
-		# Presione cualquier tecla para salir del ciclo.
-		while [ true ] ; do
-			read -t 1 -n 1
-			if [ $? = 0 ] ; then
-				echo "Analizando datos...";
-				break ;
-			else
-				# Print timestamp (unix time + microseconds as in gettimeofday) before each line.
-				ping -A -c 300 -D -I $1 -i 1 $2 | cat | awk -F ' ' '{split($8,time,"="); print time[2]}' >> data.csv;
-			fi
-		done
-		python3 analisis.py;
-		rm *.csv;
+		# Print timestamp (unix time + microseconds as in gettimeofday) before each line.
+		ping -A -c 300 -D -I $1 -i 1 $2 | cat | awk -F ' ' '{split($8,time,"="); print time[2]}' > ping_output &
+
+		# Wait for 1 second before running the Python script.
+		sleep 1
+		
+		# Pipe the output of the ping command directly to the Python script.
+		cat ping_output | python3 analisis.py
+
+		# Remove the named pipe.
+		rm ping_output
+
+		# Display the plot using the default image viewer.
 		echo "Graficando datos...";
-		eog plot.png;
+		# eog plot.png;
 	;;
 	*)
-		echo "More than one argument is needed.";
+		echo "Se necesita más de un argumento.";
 	;;
 esac

@@ -1,12 +1,19 @@
 import pandas as pd
 import seaborn as sns
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-import numpy as np
 from scipy import stats
+import sys
 
-df = pd.read_csv('data.csv')
-df = df[(np.abs(stats.zscore(df)) < 3).all(axis=1)].dropna()
-sns.histplot(df[(np.abs(stats.zscore(df)) < 3).all(axis=1)],bins=100)
-plt.xlabel("Milisecons")
+# Read data from standard input (pipe).
+data = sys.stdin.readlines()
+
+# Create a pandas DataFrame from the data.
+df = pd.DataFrame({'Data': data})
+
+# Convert the 'Data' column to numeric values.
+df['Data'] = pd.to_numeric(df['Data'], errors='coerce')
+sns.despine()
 plt.savefig('plot.png', dpi=300, bbox_inches='tight')
 plt.close()
