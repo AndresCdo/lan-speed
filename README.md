@@ -133,3 +133,21 @@ Here are some resources that I found helpful and would like to give credit to. I
 * [Img Shields](https://shields.io)
 * [Font Awesome](https://fontawesome.com)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Kaiser-bit/lan-speed.svg?style=for-the-badge
+[contributors-url]: https://github.com/Kaiser-bit/lan-speed/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Kaiser-bit/lan-speed.svg?style=for-the-badge
+[forks-url]: https://github.com/Kaiser-bit/lan-speed/network/members
+[stars-shield]: https://img.shields.io/github/stars/Kaiser-bit/lan-speed.svg?style=for-the-badge
+[stars-url]: https://github.com/Kaiser-bit/lan-speed/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Kaiser-bit/lan-speed.svg?style=for-the-badge
+[issues-url]: https://github.com/Kaiser-bit/lan-speed/issues
+[license-shield]: https://img.shields.io/github/license/Kaiser-bit/lan-speed.svg?style=for-the-badge
+[license-url]: https://github.com/Kaiser-bit/lan-speed/blob/master/LICENSE.md
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/i
