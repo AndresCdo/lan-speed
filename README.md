@@ -10,7 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Kaiser-bit/lan-speed">
+  <a href="https://github.com/AndresCdo/lan-speed">
     <img src="images/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
@@ -19,14 +19,14 @@
   <p align="center">
     An awesome Bash project!
     <br />
-    <a href="https://github.com/Kaiser-bit/lan-speed"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/AndresCdo/lan-speed"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Kaiser-bit/lan-speed">View Demo</a>
+    <a href="https://github.com/AndresCdo/lan-speed">View Demo</a>
     ·
-    <a href="https://github.com/Kaiser-bit/lan-speed/issues">Report Bug</a>
+    <a href="https://github.com/AndresCdo/lan-speed/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Kaiser-bit/lan-speed/issues">Request Feature</a>
+    <a href="https://github.com/AndresCdo/lan-speed/issues">Request Feature</a>
   </p>
 </div>
 
@@ -139,15 +139,15 @@ Here are some resources that I found helpful and would like to give credit to. I
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Kaiser-bit/lan-speed.svg?style=for-the-badge
-[contributors-url]: https://github.com/Kaiser-bit/lan-speed/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Kaiser-bit/lan-speed.svg?style=for-the-badge
-[forks-url]: https://github.com/Kaiser-bit/lan-speed/network/members
-[stars-shield]: https://img.shields.io/github/stars/Kaiser-bit/lan-speed.svg?style=for-the-badge
-[stars-url]: https://github.com/Kaiser-bit/lan-speed/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Kaiser-bit/lan-speed.svg?style=for-the-badge
-[issues-url]: https://github.com/Kaiser-bit/lan-speed/issues
-[license-shield]: https://img.shields.io/github/license/Kaiser-bit/lan-speed.svg?style=for-the-badge
-[license-url]: https://github.com/Kaiser-bit/lan-speed/blob/master/LICENSE.md
+[contributors-shield]: https://img.shields.io/github/contributors/AndresCdo/lan-speed.svg?style=for-the-badge
+[contributors-url]: https://github.com/AndresCdo/lan-speed/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/AndresCdo/lan-speed.svg?style=for-the-badge
+[forks-url]: https://github.com/AndresCdo/lan-speed/network/members
+[stars-shield]: https://img.shields.io/github/stars/AndresCdo/lan-speed.svg?style=for-the-badge
+[stars-url]: https://github.com/AndresCdo/lan-speed/stargazers
+[issues-shield]: https://img.shields.io/github/issues/AndresCdo/lan-speed.svg?style=for-the-badge
+[issues-url]: https://github.com/AndresCdo/lan-speed/issues
+[license-shield]: https://img.shields.io/github/license/AndresCdo/lan-speed.svg?style=for-the-badge
+[license-url]: https://github.com/AndresCdo/lan-speed/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/i
