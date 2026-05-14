@@ -3,5 +3,5 @@ numpy==1.23.5
 pandas==2.2.2
 matplotlib==3.9.0
 scipy==1.14.0
-setuptools==54.2.0
+setuptools==78.1.1
 seaborn==0.13.1
